@@ -54,8 +54,10 @@ namespace exe4_085
             }
             else
             {
-                for (int i = 0; i <= top; i++) ;
-                Console.WriteLine("Element: " + ika[top]);
+                for (int i = 0; i <= top; i++)
+                {
+                    Console.WriteLine("Element: " + ika[i]);
+                }
             }
         }
         static void Main(string[] args)

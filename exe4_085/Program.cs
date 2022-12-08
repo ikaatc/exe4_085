@@ -11,6 +11,13 @@ namespace exe4_085
         public string[] arr;
         public int top;
         public int max;
+
+        public Stack()
+        {
+            arr = new string[104];
+            top = -1;
+            max = arr.Length;
+        }
     }
     internal class Program
     {

@@ -18,6 +18,20 @@ namespace exe4_085
             top = -1;
             max = arr.Length;
         }
+        public int pop()
+        {
+            if (top == -1)
+            {
+                Console.WriteLine("\nStack Empty");
+                return -1;
+            }
+            else
+            {
+                Console.WriteLine("Popped Element is: ");
+                top--;
+                return top;
+            }
+        }
     }
     internal class Program
     {

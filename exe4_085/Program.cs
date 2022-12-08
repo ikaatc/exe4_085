@@ -27,7 +27,7 @@ namespace exe4_085
             }
             else
             {
-                Console.WriteLine("Popped Element is: ");
+                Console.WriteLine("Popped Element is: " + ika[top]);
                 top--;
                 return top;
             }

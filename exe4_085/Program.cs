@@ -32,6 +32,20 @@ namespace exe4_085
                 return top;
             }
         }
+        public void push()
+        {
+            if (top == max)
+            {
+                Console.WriteLine("\nStack Overflow");
+                return;
+            }
+            else
+            {
+                top++;
+                Console.WriteLine("\nPushed Element is: ");
+                arr[top] = Console.ReadLine();
+            }
+        }
     }
     internal class Program
     {

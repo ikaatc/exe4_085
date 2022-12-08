@@ -54,7 +54,7 @@ namespace exe4_085
             }
             else
             {
-                for (int i = 0; i < top; i++) ;
+                for (int i = 0; i <= top; i++) ;
                 Console.WriteLine("Element: " + arr[top]);
             }
         }

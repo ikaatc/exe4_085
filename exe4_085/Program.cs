@@ -54,15 +54,17 @@ namespace exe4_085
             }
             else
             {
-                for (int i = 0; i < top; i++);
+                for (int i = 0; i < top; i++) ;
                 Console.WriteLine("Element: " + arr[top]);
             }
         }
-    }
-    internal class Program
-    {
         static void Main(string[] args)
         {
+            Stack s = new Stack();
+            while (true)
+            {
+                
+            }
         }
     }
 }

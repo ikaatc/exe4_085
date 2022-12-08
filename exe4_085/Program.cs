@@ -46,6 +46,18 @@ namespace exe4_085
                 arr[top] = Console.ReadLine();
             }
         }
+        public void display()
+        {
+            if (top == -1)
+            {
+                Console.WriteLine("\nStack Empty");
+            }
+            else
+            {
+                for (int i = 0; i < top; i++);
+                Console.WriteLine("Element: " + arr[top]);
+            }
+        }
     }
     internal class Program
     {

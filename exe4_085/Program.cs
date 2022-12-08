@@ -74,7 +74,20 @@ namespace exe4_085
                 char ch = Convert.ToChar(sInput == "" ? "0" : sInput);
                 switch (ch)
                 {
-
+                    case '1':
+                        s.push();
+                        break;
+                    case '2':
+                        s.pop();
+                        break;
+                    case '3':
+                        s.display();
+                        break;
+                    case '4':
+                        return;
+                    default:
+                        Console.WriteLine("\nInvalid Choice");
+                        break;
                 }
             }
         }

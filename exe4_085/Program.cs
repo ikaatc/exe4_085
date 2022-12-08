@@ -34,7 +34,7 @@ namespace exe4_085
         }
         public void push()
         {
-            if (top == max)
+            if (top == max - 1)
             {
                 Console.WriteLine("\nStack Overflow");
                 return;

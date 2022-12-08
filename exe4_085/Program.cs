@@ -8,15 +8,15 @@ namespace exe4_085
 {
     class Stack
     {
-        public string[] arr;
+        public string[] ika;
         public int top;
         public int max;
 
         public Stack()
         {
-            arr = new string[104];
+            ika = new string[104];
             top = -1;
-            max = arr.Length;
+            max = ika.Length;
         }
         public int pop()
         {
@@ -43,7 +43,7 @@ namespace exe4_085
             {
                 top++;
                 Console.WriteLine("\nPushed Element is: ");
-                arr[top] = Console.ReadLine();
+                ika[top] = Console.ReadLine();
             }
         }
         public void display()
@@ -55,7 +55,7 @@ namespace exe4_085
             else
             {
                 for (int i = 0; i <= top; i++) ;
-                Console.WriteLine("Element: " + arr[top]);
+                Console.WriteLine("Element: " + ika[top]);
             }
         }
         static void Main(string[] args)
